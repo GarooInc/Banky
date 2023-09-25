@@ -1,8 +1,8 @@
-import styles from "./FormContent.module.css"
+import styles from "./Form.module.css"
 import Button from '../Button/Button'
 import Input from '../Input/Input'
 
-const FormContent = () => {
+const Form = () => {
     return (
         <div className={styles.formContent}>
             <p className={styles.formContent__paragraph}>Enter your name and mobile phone to get early access to Banky!</p>
@@ -16,4 +16,4 @@ const FormContent = () => {
     )
 }
 
-export default FormContent
+export default Form

@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./principalPage.module.css"
 import NavBar from "../../components/NavBar/NavBar"
 import Textdescbutton from "../../components/Textdescbutton/Textdescbutton"
-import FormContent from "../../components/FormContent/FormContent"
+import Form from "../../components/Form/Form"
 import IconText from "../../components/IconText/IconText"
 import { FaUserLock } from "react-icons/fa"
 import {BsWhatsapp} from "react-icons/bs"
@@ -60,7 +60,7 @@ const PrincipalPage = () => {
                             fontsize="1.2rem"
                             textcolor={"#595959"}
                         />
-                        <FormContent />
+                        <Form />
                         </div>
                         <img src="/images/phone.png" alt="phone" className={styles.homecontainer__img} />
                     </div>
