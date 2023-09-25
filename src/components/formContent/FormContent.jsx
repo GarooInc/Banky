@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from "./FormContent.module.css"
 import Button from '../Button/Button'
 import Input from '../Input/Input'
