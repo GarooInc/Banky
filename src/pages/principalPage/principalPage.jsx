@@ -10,6 +10,8 @@ import {BiSolidBank,BiWorld} from "react-icons/bi"
 import {PiNumberSquareOneFill,PiNumberSquareTwoFill, PiNumberSquareThreeFill, PiNumberSquareFourFill, PiNumberSquareFiveFill, PiNumberSixFill} from "react-icons/pi"
 import Tittle from "../../components/Title/Title"
 import continents from "../../network"
+import Testimonials from "../../components/Testimonials/Testimonials"
+import Footer from "../../components/Footer/Footer"
 
 const PrincipalPage = () => {
 
@@ -99,6 +101,11 @@ const PrincipalPage = () => {
                             }
                         </div>
                 </section>
+                <section id='testimonials' className={styles.testimonials}>
+                    <Tittle title1="Testimonials" color={"#000"} />
+                    <Testimonials />
+                </section>
+                <Footer />
             </div>
         </div>
     )

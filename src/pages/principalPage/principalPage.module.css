@@ -55,6 +55,7 @@ svg.featureIcon{
 .networkcontainer{
     display: flex;
     flex-wrap: wrap; 
+    margin-top: 20px;
 }
 
 .networkcontainer > div {
@@ -115,12 +116,15 @@ svg.featureIcon{
     section{
         margin: 50px 0;
     }
+    
+    .networkcontainer > div {
+        flex: 1; 
+        min-width: 50%;
+    }
 
     .networkcontainer{
-        display: flex;
-        flex-direction: column;
+        text-align: center;
         justify-content: center;
-        align-items: start;
     }
 
     .networkcontainer ul, h2{
