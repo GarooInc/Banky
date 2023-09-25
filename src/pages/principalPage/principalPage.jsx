@@ -6,9 +6,10 @@ import Form from "../../components/Form/Form"
 import IconText from "../../components/IconText/IconText"
 import { FaUserLock } from "react-icons/fa"
 import {BsWhatsapp} from "react-icons/bs"
-import {BiSolidBank} from "react-icons/bi"
+import {BiSolidBank,BiWorld} from "react-icons/bi"
 import {PiNumberSquareOneFill,PiNumberSquareTwoFill, PiNumberSquareThreeFill, PiNumberSquareFourFill, PiNumberSquareFiveFill, PiNumberSixFill} from "react-icons/pi"
 import Tittle from "../../components/Title/Title"
+import continents from "../../network"
 
 const PrincipalPage = () => {
 
@@ -81,6 +82,22 @@ const PrincipalPage = () => {
                             )
                         }
                     </div>
+                </section>
+                <section id='network' className={styles.network}>
+                    <Tittle title1="Network" color={"#000"} />
+                        <BiWorld size={100} style={{ color: "#000" }} />
+                        <div className={styles.networkcontainer}>
+                            {
+                            continents.map(continent => (
+                                <div key={continent.title}>
+                                    <h2>{continent.title}</h2>
+                                    <ul>
+                                    {continent.countries.map(country => <li key={country}>{country}</li>)}
+                                    </ul>
+                                </div>
+                                ))
+                            }
+                        </div>
                 </section>
             </div>
         </div>

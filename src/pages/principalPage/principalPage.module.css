@@ -50,7 +50,31 @@ svg.featureIcon{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
-  }
+}
+
+.networkcontainer{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.networkcontainer > div {
+    flex: 1; 
+}
+
+
+.networkcontainer ul {
+    list-style: none;
+    padding: 0;
+    font-family: 'Avenir';
+    font-size: 16px;
+}
+
+.networkcontainer h2{
+    font-family: 'Avenir';
+    font-weight: 500;
+    color: #595959;
+}
+
 
 @media screen and (max-width: 940px) {
     .homecontainer {
@@ -90,5 +114,20 @@ svg.featureIcon{
 
     section{
         margin: 50px 0;
+    }
+
+    .networkcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .networkcontainer ul, h2{
+        font-size: 16px;
+    }
+
+    .networkcontainer li{
+        font-size: 12px;
     }
 }
