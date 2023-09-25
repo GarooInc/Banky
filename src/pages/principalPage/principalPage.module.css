@@ -54,8 +54,11 @@ svg.featureIcon{
 
 .networkcontainer{
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
 }
 
 .networkcontainer > div {
