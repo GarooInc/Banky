@@ -1,0 +1,40 @@
+.iconText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.iconText svg {
+    font-size: 80px;
+}
+
+.text{
+    font-size: 24px;
+    font-weight: 400;
+    color: #595959;
+    margin-bottom: 0%;
+    font-family: 'Avenir';
+}
+
+@media screen and (max-width: 940px) {
+    .iconText{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5%;
+    }
+
+    .iconText svg {
+        font-size: 40px;
+    }
+
+
+    .text{
+        text-align: justify;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+}

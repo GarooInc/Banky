@@ -1,0 +1,46 @@
+.formContent{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.formContent__paragraph{
+    font-size: 24px;
+    font-weight: 500;
+    color: #595959;
+    font-family: 'Avenir';
+}
+
+.formContent__form{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+
+@media screen and (max-width:940px) {
+    .formContent{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .formContent__paragraph{
+        font-size: 12px;
+        font-weight: bold;
+        color: #595959;
+    }
+
+    .formContent__form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 12px;
+    }
+}
