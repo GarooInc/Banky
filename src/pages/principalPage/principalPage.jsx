@@ -108,7 +108,7 @@ const PrincipalPage = () => {
                 <section id='demo' className={styles.demo}>
                     <div className={styles.demo__content}>
                         <Tittle title1="Demo" color={"#595959"} />
-                        <video className={styles.demo__video} autoPlay muted loop>
+                        <video className={styles.demo__video} playsInline autoPlay muted loop >
                             <source src="./videos/banky.mp4" type="video/mp4">
                             </source>
                         </video>
