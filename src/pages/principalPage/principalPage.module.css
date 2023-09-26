@@ -72,7 +72,7 @@ svg.featureIcon{
     text-align: center;
 }
 
-.networkcontainer ul:hover {
+.networkcontainer>div:hover {
     box-shadow: 4px -18px 59px 42px rgba(0,0,0,0.1);
 }
 

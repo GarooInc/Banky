@@ -7,7 +7,7 @@ const IconText = ({ icon, text, tittle }) => {
         tittle ? (
             <div className={styles.iconText}>
                 {icon}
-                <span className={styles.text}>{tittle}</span>
+                <span className={styles.texttittle}>{tittle}</span>
                 <span className={styles.paragraph}>{text}</span>
             </div>
         ) : (

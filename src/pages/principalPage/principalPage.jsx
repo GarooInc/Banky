@@ -17,32 +17,32 @@ const PrincipalPage = () => {
 
     const featuresItems = [
         {
-            icon: <PiNumberSquareOneFill  style={{ color: "#485ace" }} />,
+            icon: <PiNumberSquareOneFill  style={{ color: "#26BBF7" }} />,
             tittle: "Account to account transfers",
             text: "Simply text Banky the amount you want to transfer and specify the sending account and receiving account for the transaction."
         },
         {
-            icon: <PiNumberSquareTwoFill  style={{ color: "#485ace" }} />,
+            icon: <PiNumberSquareTwoFill  style={{ color: "#26BBF7" }} />,
             tittle: "Pay your credit card",
             text: "Just send a text to Banky, and it will handle your credit card payment effortlessly."
         },
         {
-            icon: <PiNumberSquareThreeFill  style={{ color: "#485ace" }} />,
+            icon: <PiNumberSquareThreeFill  style={{ color: "#26BBF7" }} />,
             tittle: "Check your accounts balance",
             text: "Simply request Banky to provide your account balances, and it will promptly text you back the balances for all your different accounts."
         },
         {
-            icon: <PiNumberSquareFourFill  style={{ color: "#485ace" }} />,
+            icon: <PiNumberSquareFourFill  style={{ color: "#26BBF7" }} />,
             tittle: "Pay your services",
             text: "When you ask Banky to pay your electric bill, rest assured that Banky will take care of the entire process for you."
         },
         {
-            icon: <PiNumberSquareFiveFill  style={{ color: "#485ace" }} />,
+            icon: <PiNumberSquareFiveFill  style={{ color: "#26BBF7" }} />,
             tittle: "Transfer to other users",
             text: "Simply text Banky the amount you want to transfer and specify the receiving account for the transaction."
         },
         {
-            icon: <PiNumberSixFill  style={{ color: "#485ace" }} />,
+            icon: <PiNumberSixFill  style={{ color: "#26BBF7" }} />,
             tittle: "Set reminders for payments",
             text: "Similar to a personal assistant, you can ask Banky to set payment reminders for you. Once reminded, you can instantly make the payments Banky prompted you about."
         }
@@ -74,7 +74,7 @@ const PrincipalPage = () => {
                     <IconText icon={<BiSolidBank  style={{ color: "#000" }} />} text="Seamless connection to your bank, to help you keep going with what matters the most." />
                 </div>
                 <section id='features' className={styles.features}>
-                    <Tittle title1="Features" color={"#000"} />
+                    <Tittle title1="Features" color={"#595959"} />
                     <div className={styles.featurescontainer}>
                         {
                             featuresItems.map((item, index) =>
@@ -86,7 +86,7 @@ const PrincipalPage = () => {
                     </div>
                 </section>
                 <section id='network' className={styles.network}>
-                    <Tittle title1="Network" color={"#000"} />
+                    <Tittle title1="Network" color={"#595959"} />
                         <BiWorld size={100} style={{ color: "#000" }} />
                         <div className={styles.networkcontainer}>
                             {
@@ -102,12 +102,12 @@ const PrincipalPage = () => {
                         </div>
                 </section>
                 <section id='testimonials' className={styles.testimonials}>
-                    <Tittle title1="Testimonials" color={"#000"} />
+                    <Tittle title1="Testimonials" color={"#595959"} />
                     <Testimonials />
                 </section>
                 <section id='demo' className={styles.demo}>
                     <div className={styles.demo__content}>
-                        <Tittle title1="Demo" color={"#000"} />
+                        <Tittle title1="Demo" color={"#595959"} />
                         <video className={styles.demo__video} autoPlay muted loop>
                             <source src="./videos/banky.mp4" type="video/mp4">
                             </source>

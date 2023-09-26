@@ -11,7 +11,7 @@ const Form = () => {
                 <Input type="text" placeholder="Last Name" className={styles.formContent__input}/>
                 <Input type="text" placeholder="Phone Number" className={styles.formContent__input}/>
             </form>
-            <Button text="Get Early Access" backgroundcolor="#485ACE"/>
+            <Button text="Get Early Access" backgroundcolor="#485ACE" colortext="#FFF"/>
         </div>
     )
 }
