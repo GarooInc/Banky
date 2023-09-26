@@ -10,6 +10,20 @@
     font-size: 80px;
 }
 
+.iconText svg:hover {
+    animation: changeColor 2s forwards;
+}
+
+
+@keyframes changeColor {
+    0% {
+        color: #fff;
+    }
+    100% {
+        color: #595959;
+    }
+}
+
 .text{
     font-size: 24px;
     font-weight: 400;

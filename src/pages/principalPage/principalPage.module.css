@@ -25,12 +25,24 @@ section{
 }
 
 .homecontainer__text, .homecontainer__img {
-    width: 50%;                
+    width: 50%;              
 }
 
 .homecontainer img {
     max-width: 100%;            
-    height: auto;               
+    height: auto; 
+    animation: slideFromRight 1s forwards;               
+}
+
+@keyframes slideFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .iconfeatures{
@@ -45,7 +57,6 @@ svg.featureIcon{
 }
 
 .featurescontainer {
-    padding-top: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -59,6 +70,10 @@ svg.featureIcon{
     width: 100%;
     justify-content: center;
     text-align: center;
+}
+
+.networkcontainer ul:hover {
+    box-shadow: 4px -18px 59px 42px rgba(0,0,0,0.1);
 }
 
 .networkcontainer > div {
@@ -77,6 +92,18 @@ svg.featureIcon{
     font-family: 'Avenir';
     font-weight: 500;
     color: #595959;
+}
+
+.demo__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.demo__content video{
+    max-width: 100%;
 }
 
 
