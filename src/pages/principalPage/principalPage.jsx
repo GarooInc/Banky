@@ -68,11 +68,13 @@ const PrincipalPage = () => {
                         <img src="/images/phone.png" alt="phone" className={styles.homecontainer__img} />
                     </div>
                 </section>
+                <div className={styles.border}></div>
                 <div className={styles.iconfeatures}>
                     <IconText icon={<FaUserLock  style={{ color: "#000" }} />} text="End to End encryption and 3-word passphrase ensure your information is always kept safe." />
                     <IconText icon={<BsWhatsapp  style={{ color: "#000" }} />} text="No need to download any apps, if you have WhatsApp you can have Banky." />
                     <IconText icon={<BiSolidBank  style={{ color: "#000" }} />} text="Seamless connection to your bank, to help you keep going with what matters the most." />
                 </div>
+                <div className={styles.border}></div>
                 <section id='features' className={styles.features}>
                     <Tittle title1="Features" color={"#595959"} />
                     <div className={styles.featurescontainer}>
@@ -85,6 +87,7 @@ const PrincipalPage = () => {
                         }
                     </div>
                 </section>
+                <div className={styles.border}></div>
                 <section id='network' className={styles.network}>
                     <Tittle title1="Network" color={"#595959"} />
                         <BiWorld size={100} style={{ color: "#000" }} />
@@ -101,10 +104,12 @@ const PrincipalPage = () => {
                             }
                         </div>
                 </section>
+                <div className={styles.border}></div>
                 <section id='testimonials' className={styles.testimonials}>
                     <Tittle title1="Testimonials" color={"#595959"} />
                     <Testimonials />
                 </section>
+                <div className={styles.border}></div>
                 <section id='demo' className={styles.demo}>
                     <div className={styles.demo__content}>
                         <Tittle title1="Demo" color={"#595959"} />
